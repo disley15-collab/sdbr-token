@@ -1,0 +1,12 @@
+{
+  "network": "bsc",
+  "chainId": 56,
+  "explorer": "https://bscscan.com",
+  "contracts": {
+    "SDBR": "0x00000000001C77283FDB79c1D012930C3c987cbc",
+    "Timelock": "0x7ef7aa093d99294cf628a72ee93cc92ca38dfd6a",
+    "LogoSDBR": "0xC3C0e2BC230Ae31b75Be182Ef5920F0471b062F1",
+    "PoolTravada (Uniswap v4 hook)": "0x00000042c7901119a491B1ed862C3D052bF72800"
+  },
+  "uniswapV4PoolId": "0x953cb7f37ba620dcf45879bf5aea5909afff54fe13a607bf6526c2cb47bf4056"
+}

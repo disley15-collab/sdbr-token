@@ -1,0 +1,10 @@
+{
+  "network": "polygon",
+  "chainId": 137,
+  "explorer": "https://polygonscan.com",
+  "contracts": {
+    "SDBR": "0x00000000001C77283FDB79c1D012930C3c987cbc",
+    "Timelock": "0x7beb0972c7750f0896a95a1811a5dd2f82e4268b",
+    "LogoSDBR": "0xC3C0e2BC230Ae31b75Be182Ef5920F0471b062F1"
+  }
+}

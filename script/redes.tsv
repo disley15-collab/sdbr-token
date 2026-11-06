@@ -1,0 +1,7 @@
+bsc	56	30102	https://bsc-mainnet.public.blastapi.io	0x28e2Ea090877bF75740558f6BFB36A5ffeE9e9dF	BNB
+base	8453	30184	https://mainnet.base.org	0x498581fF718922c3f8e6A244956aF099B2652b2b	ETH
+arbitrum	42161	30110	https://arb1.arbitrum.io/rpc	0x360E68faCcca8cA495c1B759Fd9EEe466db9FB32	ETH
+polygon	137	30109	https://polygon.drpc.org	0x67366782805870060151383F4BbFF9daB53e5cD6	POL
+optimism	10	30111	https://mainnet.optimism.io	0x9a13F98Cb987694C9F086b1F5eB990EeA8264Ec3	ETH
+avalanche	43114	30106	https://api.avax.network/ext/bc/C/rpc	0x06380C0e0912312B5150364B9DC4542BA0DbBc85	AVAX
+celo	42220	30125	https://forno.celo.org	0x288dc841A52FCA2707c6947B3A777c5E56cd87BC	CELO
