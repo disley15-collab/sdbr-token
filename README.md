@@ -2,7 +2,7 @@
 
 # SDBR · Solidity Brasil
 
-Smart contracts of **SDBR**, deployed on **BNB Smart Chain** (home chain, where the liquidity lives) and bridged to other EVM chains. the utility token of [Solidity Brasil](https://soliditybrasil.com.br). SDBR pays for Solidity Brasil products: websites, landing pages, AI agents, messaging and blockchain tools.
+Smart contracts of **SDBR**, deployed on **BNB Smart Chain** (home chain, where the liquidity lives) and bridged to other EVM chains. SDBR is the utility token of [Solidity Brasil](https://soliditybrasil.com.br). SDBR pays for Solidity Brasil products: websites, landing pages, AI agents, messaging and blockchain tools.
 
 - **Website:** https://sdbr.soliditybrasil.com.br
 - **Whitepaper:** [docs/SDBR-whitepaper-v1.pdf](docs/SDBR-whitepaper-v1.pdf)
