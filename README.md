@@ -2,12 +2,31 @@
 
 # SDBR · Solidity Brasil
 
-Smart contracts of **SDBR**, the utility token of [Solidity Brasil](https://soliditybrasil.com.br). SDBR pays for Solidity Brasil products: websites, landing pages, AI agents, messaging and blockchain tools.
+Smart contracts of **SDBR**, deployed on **BNB Smart Chain** (home chain, where the liquidity lives) and bridged to other EVM chains. the utility token of [Solidity Brasil](https://soliditybrasil.com.br). SDBR pays for Solidity Brasil products: websites, landing pages, AI agents, messaging and blockchain tools.
 
 - **Website:** https://sdbr.soliditybrasil.com.br
 - **Whitepaper:** [docs/SDBR-whitepaper-v1.pdf](docs/SDBR-whitepaper-v1.pdf)
 - **X:** https://x.com/sdbrtoken · **Telegram:** https://t.me/sdbrtoken · **Medium:** https://medium.com/solidity-brasil
 - **Contact:** disley@soliditybrasil.com.br
+
+## Technology Stack
+
+- **Blockchain:** BNB Smart Chain (home chain, chain ID 56) + EVM-compatible chains via LayerZero v2
+- **Smart contracts:** Solidity 0.8.26, OpenZeppelin 5, LayerZero OFT, Uniswap v4 hooks
+- **Development:** Foundry (forge tests on a BNB Smart Chain fork), CreateX CREATE3 for identical addresses
+- **Configuration:** [`foundry.toml`](foundry.toml) (`bsc` RPC endpoint), [`bsc.json`](bsc.json) (BNB Smart Chain addresses)
+
+## Supported Networks
+
+| Network | Chain ID | Role |
+|---|---|---|
+| **BNB Smart Chain Mainnet** | **56** | Home chain: full supply minted here, Uniswap v4 pool and PoolTravada hook |
+| Base | 8453 | OFT (bridged) |
+| Arbitrum One | 42161 | OFT (bridged) |
+| Polygon PoS | 137 | OFT (bridged) |
+| OP Mainnet | 10 | OFT (bridged) |
+| Avalanche C-Chain | 43114 | OFT (bridged) |
+| Celo | 42220 | OFT (bridged) |
 
 ## How it works
 
@@ -27,7 +46,7 @@ Smart contracts of **SDBR**, the utility token of [Solidity Brasil](https://soli
 - **No mint, no pause, no blacklist, no proxy.** The owner is a 7-day timelock and can only change the bridge configuration.
 - **On-chain logo:** `LogoSDBR` stores the SVG logo on-chain (`svg()`, `imagem()`, `hashSvg()`).
 
-## Contracts
+## Contract Addresses (BNB Smart Chain Mainnet, chain ID 56)
 
 | Contract | File | BNB Smart Chain |
 |---|---|---|
